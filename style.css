@@ -24,6 +24,10 @@ html,body{
     background-size: cover;
     background-position:center ;
 }
+.logo{
+    width: 190px;
+    margin: 5px;
+}
 
 .hero-title{
     font-size: 4rem;
@@ -149,6 +153,9 @@ width:40%;
 }
 
 @media(max-width:500px){
+    .logo{
+        display: none;
+    }
     .hero-title{
         font-size: 2.8rem;
     }
